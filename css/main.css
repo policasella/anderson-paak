@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*--------------------------------------HOME--------------------------------------*/
+/*----REGLA QUE APLICA A AMBOS TÍTULOS----*/
+.sobre-el .h1 {
+  font: normal 14pt, bold, sans-serif; }
+
+/*---PRUEBA MIXIN, PARA ELEMENTOS QUE SE REPITEN MUY SEGUIDO---*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  margin: 10px 0px 10px 5px;
+  padding: 10px; }
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background: black; }

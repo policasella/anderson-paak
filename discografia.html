@@ -2,72 +2,85 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<title>Home.AndersonPaak</title>
 	<link rel="stylesheet" href="index.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
 	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="main.css"/>
 </head>
 <body>
 	<header>
-	<div class="header">
-		<nav class="nav">
-	  		<ul>
-	   			<li><a href="index.html">HOME</a>
-	   			    <ul class=escondido>
-	        			<li><a href="#newsletter">NEWSLETTER</a></li>
-	      			</ul>
-	      		</li>
-	    		<li><a href="Contacto.html">CONTACTO</a></li>
-	    		<li><a href="Discografia.html">DISCOGRAFÍA</a></li>
-	    		<li><a href="Tour.html">TOUR</a></li>
-	  		</ul>
-		</nav>
-	    <div class="marca">
-	  		<img src="img/logoanderson2.png" alt="marca-Anderson" width="150">
+	<div class="container-fluid img-resposive">
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent container-fluid">
+			  <img src="img/logoanderson3.png" alt="marca-Anderson" width="150">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse navbar-brand" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto navbar-brand">
+				      <li class="font-nav nav-item">
+				        <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="font-nav nav-item">
+				        <a class="nav-link" href="discografia.html">DISCOGRAFIA</a>
+				      </li>
+				      <li class="font-nav nav-item">
+				        <a class="nav-link" href="show.html">SHOW</a>
+				      </li>
+				     </ul>
+			 </div>
+			</nav>
+		</div>	
+		</header>
+	<hr>
+	<div class="container-fluid">
+	<p id="titulo"> Por si todavía no conocés todos sus discos: </p>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-3">
+						<img class="img-fluid responsive-image rounded" src="discografia/Venice.jpg">
+						<p>2014</p>
+						<p>Venice fue el disco debut de Anderson Paak. Es increíble de principio a fin: la musicalidad, las letras, y la perfecta combinación de estilos. Todo confluye de manera armónica</p>
+			</div>	
+			<div class="col-12 col-md-3">
+						<img class="img-fluid responsive-image rounded" src="discografia/Malibu.jpg">		
+						<p>2016</p>
+						<p>Para Malibú, Anderson .Paak supo reunir a productores transgresores del hip hop, enormes músicos de sesión y voces que lo supieron acompañar, como ScHoolboy Q o BJ The Chicago Kid. Todos fueron encargados de orquestar un sonido moderno e interesante. ¡Escuchalo!</p>
+			</div>
+			<div class="col-12 col-md-3">
+						<img class="img-fluid responsive-image rounded" src="discografia/Oxnard.jpg">
+						<p>2018</p>
+						<p>En Oxnard, Paak busca fusionar el rap y funk acompañado todo el tiempo de la batería. Los mejores momentos son cuando Paak se permite ser instintivo y suelto, permitiendo combinar las diferentes influencias con una comodidad reconfortante.</p>
+			</div>
+			<div class="col-12 col-md-3">
+						<img class="img-fluid responsive-image rounded" src="discografia/Ventura.jpg">		
+						<p>2019</p>	
+						<p>Menos de un año después, Paak lanza "Ventura" otra colección canciones de alta calidad. La capacidad que tiene este artista para hacer canciones de esas calidad y cantidad en tan poco tiempo, todavía sigue siendo un misterio</p>				
+			</div>
 		</div>
-		<div class="redes_conjunto">
+	</div>
+		<hr>
+		<footer>
+		<div class="redes_conjunto" align="center">
 			<a href="https://www.facebook.com/AndersonPaak/" target="_blank"><ion-icon class="redes" name="logo-facebook"></ion-icon></a>
 			<a href="https://twitter.com/andersonpaak?lang=es" target="_blank"><ion-icon class="redes" name="logo-twitter"></ion-icon></a>
 			<a href="https://www.youtube.com/channel/UCVMSK1i_uksa4FrXZZqGYvw" target="_blank"><ion-icon class="redes" name="logo-youtube"></ion-icon></a>
 			<a href="https://www.instagram.com/anderson._paak/?hl=es-la" target="_blank"><ion-icon class="redes" name="logo-instagram"></ion-icon></a>
 		</div>
-	</div>	
-	</header>
-
-	<hr>
-
-	<p id="titulo"> Por si todavía no conocés todos sus discos: </p>
-	<div class="discografia">
-		<div class="disco1">
-					<img class="img" src="discografia/Venice.jpg">
-					<p>2014</p>
-					<p>Venice fue el disco debut de Anderson Paak. Es increíble de principio a fin: la musicalidad, las letras, y la perfecta combinación de estilos. Todo confluye de manera armónica</p>
-		</div>	
-		<div class="disco2">
-					<img class="img" src="discografia/Malibu.jpg">		
-					<p>2016</p>
-					<p>Para Malibú, Anderson .Paak supo reunir a productores transgresores del hip hop, enormes músicos de sesión y voces que lo supieron acompañar, como ScHoolboy Q o BJ The Chicago Kid. Todos fueron encargados de orquestar un sonido moderno e interesante. ¡Escuchalo!</p>
-		</div>
-		<div class="disco3">
-					<img class="img" src="discografia/Oxnard.jpg">
-					<p>2018</p>
-					<p>En Oxnard, Paak busca fusionar el rap y funk acompañado todo el tiempo de la batería. Los mejores momentos son cuando Paak se permite ser instintivo y suelto, permitiendo combinar las diferentes influencias con una comodidad reconfortante.</p>
-		</div>
-		<div class="disco4">
-					<img class="img" src="discografia/Ventura.jpg">		
-					<p>2019</p>	
-					<p>Menos de un año después, Paak lanza "Ventura" otra colección canciones de alta calidad. La capacidad que tiene este artista para hacer canciones de esas calidad y cantidad en tan poco tiempo, todavía sigue siendo un misterio</p>				
-		</div>
-	</div>
-		<hr>
-		<footer>
-			<div class="footer-abajo">
+			<div class="footer-abajo" align="center">
 				<p>2019 Copyright.</p>
 				<a href="">Terms of use</a>
 				<a href="">Designed by Poli Casella</a>
 			</div>
 		</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

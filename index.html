@@ -2,78 +2,81 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<title>Home.AndersonPaak</title>
 	<link rel="stylesheet" href="index.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
 	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="main.css"/>
 </head>
 <body>
 	<header>
-	<div class="header">
-		<div class="nav">
-	  		<ul>
-	   			<li><a href="index.html">HOME</a>
-	   			    <ul class=escondido>
-	        			<li><a href="#newsletter">NEWSLETTER</a></li>
-	      			</ul>
-	      		</li>
-	    		<li><a href="Contacto.html">CONTACTO</a></li>
-	    		<li><a href="Discografia.html">DISCOGRAFÍA</a></li>
-	    		<li><a href="Tour.html">TOUR</a></li>
-	  		</ul>
+	<div class="bg container-fluid img-resposive">
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent container-fluid">
+			  <img src="img/logoanderson3.png" alt="marca-Anderson" width="150">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse navbar-brand" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto navbar-brand">
+				      <li class="font-nav nav-item">
+				        <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="font-nav nav-item">
+				        <a class="nav-link" href="discografia.html">DISCOGRAFIA</a>
+				      </li>
+				      <li class="font-nav nav-item">
+				        <a class="nav-link" href="show.html">SHOW</a>
+				      </li>
+				     </ul>
+			 </div>
+			</nav>
+		</div>	
+		</header>
+	</div>
+	<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<span id=newsletter>NEWSLETTER</span>
+				</div>
+				<div class="col-12 col-md-6">
+					<form class="input">
+					<input type="email" name="email">
+					<button type="button" class="btn btn-light">ENVIAR</button>
+					</form>
+				</div>
+			</div>
 		</div>
-	    <div class="marca">
-	  		<img src="img/logoanderson2.png" alt="marca-Anderson" width="150">
-		</div>
-		<div class="redes_conjunto">
+	<hr>
+	<section>
+	<div>
+		<h1 class="conocelo">CONOCELO</h1>
+			<div class="videoWrapper" align="center">
+			<iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+</div>
+	</div>
+  	</section>
+  	<hr>
+		<footer>
+		<div class="redes_conjunto" align="center">
 			<a href="https://www.facebook.com/AndersonPaak/" target="_blank"><ion-icon class="redes" name="logo-facebook"></ion-icon></a>
 			<a href="https://twitter.com/andersonpaak?lang=es" target="_blank"><ion-icon class="redes" name="logo-twitter"></ion-icon></a>
 			<a href="https://www.youtube.com/channel/UCVMSK1i_uksa4FrXZZqGYvw" target="_blank"><ion-icon class="redes" name="logo-youtube"></ion-icon></a>
 			<a href="https://www.instagram.com/anderson._paak/?hl=es-la" target="_blank"><ion-icon class="redes" name="logo-instagram"></ion-icon></a>
 		</div>
-	</div>	
-	</header>
-
-	<section>
-		<div class=img-anderson>
-			<img src="img/anderson8.jpg" alt="Anderson" width="1325"></th>
-		</div>
-	</section>
-	<hr>
-		<div class="medio">
-			<span class="newsletter" id=newsletter>NEWSLETTER</span>
-			<div class="enviar-input">
-				<form class="input">
-				<input type="email" name="email">
-				<a href="">Enviar</a>
-				</form>
-			</div>
-		</div>
-	<hr>
-	<section>
-	<div class=sobre-el>
-		<div class="info1">
-    		<h1 class="titulo_quienes" id=titulo_quienes>¿QUIÉN ES ANDERSON PAAK?</h1>
-    		<p class="quienes">Brandon Paak Anderson (nacido en 1986), más conocido por su nombre artístico Anderson Paak, es un cantante, compositor, rapero, baterista y productor estadounidense nacido Oxnard, California. Lanzó su álbum debu en 2012, bajo el seudónimo de Breezy Lovejoy. Luego pasó a lanzar Venice en 2014, bajo su apodo actual. Anderson siguió con Malibu, en 2016, recibió una nominación al Mejor Álbum Urbano Contemporáneo en los Premios Grammy.</p>
-		</div>
-		<div class="info2">
-   			<h1 class="titulo_video" id=titulo_video>CONOCELO</h1>
-   			<video autoplay controls>
-  			<source src="img/videoanderson.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-			</video>
-		</div>
-	</div>
-  	</section>
-  	<hr>
-		<footer>
-			<div class="footer-abajo">
+			<div class="footer-abajo" align="center">
 				<p>2019 Copyright.</p>
 				<a href="">Terms of use</a>
 				<a href="">Designed by Poli Casella</a>
 			</div>
 		</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,34 @@
+/*--------------------------------------HOME--------------------------------------*/
+
+/*----REGLA QUE APLICA A AMBOS TÍTULOS----*/
+
+
+$titulo-sobre-el: normal 14pt, bold, sans-serif;
+
+.sobre-el .h1 {
+ font: $titulo-sobre-el;
+}
+
+/*---PRUEBA MIXIN, PARA ELEMENTOS QUE SE REPITEN MUY SEGUIDO---*/
+
+@mixin d-flex($bg){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background: $bg;
+}
+
+@mixin margenes($t, $r, $b, $l){
+    margin: $t $r $b $l;
+    padding: 10px;
+}
+
+.container{
+    @include d-flex(white);
+    @include margenes(10px, 0px, 10px , 5px);
+}
+
+.footer-container{
+    @include d-flex(black);    
+}
