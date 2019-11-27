@@ -1,9 +1,8 @@
-body{
-  background-color: #F5F7E2;
+body {
+  color: #F5F7E2;
   color: black;
   font-size: 14pt;
-  font-family: 'Cabin', sans-serif;
-}
+  font-family: 'Cabin', sans-serif; }
 
 li{
 	display: inline
@@ -26,7 +25,7 @@ hr{
   background-image: url("img/anderson11.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 620px;
+  height: 530px;
   padding-top: 15px;
 }
 
@@ -194,14 +193,8 @@ a:hover, a:active, a:visited{
 	flex-wrap: wrap;
 }
 
-.titulo-discografia{
-	margin-top: 20px;
-	color: black;
-	font-size: 18pt;
-	font-family: 'Cabin', sans-serif;
-}
 
-}
+
 
 .discografia .disco{
 	float: left;
@@ -247,6 +240,7 @@ a:hover, a:active, a:visited{
 	border: 2px;
 	padding: 5px;
 	margin-bottom: 25px;
+	border-radius: 6px;
 }
 
 .ticket{
@@ -289,23 +283,18 @@ a:hover, a:active, a:visited{
   }
 }
 
-
-
-/*----------HOME - MEDIA----------*/
-
-
-
-/*
-
-
 @media only screen and (max-width: 420px) {
-  .medio{
-	flex-basis: 100%;
-}
-
-@media only screen and (max-width: 420px) {
-  .medio .enviar-input{
-	flex-basis: 100%;
+  .bg{
+    background-position-x: -540px;
   }
 }
+
+@media only screen and (max-width: 420px) {
+	.bg-corto{
+	background-color: #DE0415
+	width: 100%;
+  	height: 140px;
+	}
+}
+
 

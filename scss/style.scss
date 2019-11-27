@@ -2,33 +2,19 @@
 
 /*----REGLA QUE APLICA A AMBOS TÍTULOS----*/
 
-
-$titulo-sobre-el: normal 14pt, bold, sans-serif;
-
-.sobre-el .h1 {
- font: $titulo-sobre-el;
+.titulo{
+    margin-top: 20px;
+    color: black;
+    font-size: 18pt;
+    font-family: 'Cabin', sans-serif;
 }
 
-/*---PRUEBA MIXIN, PARA ELEMENTOS QUE SE REPITEN MUY SEGUIDO---*/
+$cool-red: #DE0415;
+$cool-yellow: #F5F7E2;
 
-@mixin d-flex($bg){
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    background: $bg;
-}
-
-@mixin margenes($t, $r, $b, $l){
-    margin: $t $r $b $l;
-    padding: 10px;
-}
-
-.container{
-    @include d-flex(white);
-    @include margenes(10px, 0px, 10px , 5px);
-}
-
-.footer-container{
-    @include d-flex(black);    
+body{
+    color: $cool-yellow;
+    color: black;
+    font-size: 14pt;
+    font-family: 'Cabin', sans-serif;
 }
