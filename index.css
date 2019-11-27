@@ -1,6 +1,6 @@
 body{
-  background-color: white
-  color: gray;
+  background-color: #F5F7E2;
+  color: black;
   font-size: 14pt;
   font-family: 'Cabin', sans-serif;
 }
@@ -10,12 +10,9 @@ li{
 }
 
 hr{
- border-top: 2px solid orange
+ border-bottom: 2px solid orange
 }
 
-img{
-	
-}
 
 /*--- #DE0415 = el rojo    ---*/
 /*--- #FC7213 = el naranja ---*/
@@ -30,6 +27,7 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   height: 620px;
+  padding-top: 15px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -45,7 +43,7 @@ img{
 
 header .marca{
 	font-size:30px
-	color: gray;
+	color: black;
 	float: center;
 	align-content: center;
 	margin-top: 10px;
@@ -55,7 +53,6 @@ header .marca{
 
 /*--REDES--*/
 
-
 .redes:hover{
 	color: #E7B508;
 	cursor: pointer;
@@ -64,8 +61,13 @@ header .marca{
 
 /*---------------------------------FOOTER---------------------------------*/
 
+footer{
+	background-color: #F2F9B1;
+	padding-top: 15px;
+}
+
 footer .footer-abajo p{
-	color: gray;
+	color: black;
 	font-size: 12px;
 	margin: 0;
 }
@@ -73,14 +75,21 @@ footer .footer-abajo p{
 footer .footer-abajo a{
 	text-decoration: underline;
 	display: block;
-	color: gray;
+	color: black;
 	font-size: 12px;
 } 
 
 /*-------------------------------CONTACTO-------------------------------*/
 
+
+
 /*---------------------------------HOME---------------------------------*/
 
+.medio{
+	background-color: #F2F9B1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 .conocelo{
 	text-align: center;
@@ -94,6 +103,25 @@ footer .footer-abajo a{
 	color: #FC7213;
 	padding: 4px 4px;
   	border-radius: 5px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.conocelo-video{
+	margin-bottom: 20px;
 }
 
 
@@ -148,12 +176,31 @@ a:hover, a:active, a:visited{
 
 /*---------------------------------DISCOGRAFIA---------------------------------*/
 
+
+.bg-corto{
+  background-image: url("img/anderson11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 140px;
+  padding-top: 15px;
+}
+
 .discografia{
 	overflow: auto;
 	border-style: solid;
 	display: flex;
 	border-width: 0.5px;
 	flex-wrap: wrap;
+}
+
+.titulo-discografia{
+	margin-top: 20px;
+	color: black;
+	font-size: 18pt;
+	font-family: 'Cabin', sans-serif;
+}
+
 }
 
 .discografia .disco{
@@ -164,22 +211,55 @@ a:hover, a:active, a:visited{
 }
 
 
-/*---------------------------------TOUR---------------------------------*/
+
+/*---------------------------------SHOW---------------------------------*/
 
 .info{
 	margin: 2px;
 	border-bottom: 1px solid gray;
 }
 
+.venta-tickets{
+	margin-top: 15px;
+}
+
+.borde-tickets-top{
+	border-bottom: 1px solid orange;
+	border-right: 1px solid orange;
+	margin-top: 2px;
+}
+
 .borde-tickets{
 	border-bottom: 1px solid orange;
 	border-right: 1px solid orange;
+	margin-top: 15px;
 }
 
 .titulo-form{
-  color: gray;
-  font-size: 14pt;
+  color: black;
+  font-size: 18pt;
   font-family: 'Cabin', sans-serif;
+}
+
+.form-enviar{
+	background-color: white;
+	border-color: black;
+	border: 2px;
+	padding: 5px;
+	margin-bottom: 25px;
+}
+
+.ticket{
+	margin-top: 19px;
+}
+
+.formulario{
+	margin-top: 20px;
+}
+
+.button-enviar{
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
 
 /*--
@@ -200,13 +280,8 @@ a:hover, a:active, a:visited{
 
 /*---------------------------------MEDIA QUERY---------------------------------*/
 
-/*----------HEADER - MEDIA----------
+/*----------HEADER - MEDIA----------*/
 
-@media only screen and (max-width: 420px) {
-  .header .nav{
-	flex-basis: 100%;
-  }
-}
 
 @media only screen and (max-width: 420px) {
   .header .marca{
@@ -214,31 +289,22 @@ a:hover, a:active, a:visited{
   }
 }
 
-*/
 
-/*----------HOME - MEDIA----------
+
+/*----------HOME - MEDIA----------*/
+
+
+
+/*
 
 
 @media only screen and (max-width: 420px) {
-  .medio .newsletter{
+  .medio{
 	flex-basis: 100%;
-  }
 }
 
 @media only screen and (max-width: 420px) {
   .medio .enviar-input{
-	flex-basis: 100%;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .sobre-el .info1{
-	flex-basis: 100%;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .sobre-el .info2{
 	flex-basis: 100%;
   }
 }
