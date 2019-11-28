@@ -1,5 +1,5 @@
 body {
-  color: #F5F7E2;
+  background-color: #F5F7E2;
   color: black;
   font-size: 14pt;
   font-family: 'Cabin', sans-serif; }
@@ -52,6 +52,12 @@ header .marca{
 
 /*--REDES--*/
 
+.redes{
+	color: black;
+	height: 20px;
+	width: 20px;
+}
+
 .redes:hover{
 	color: #E7B508;
 	cursor: pointer;
@@ -77,10 +83,6 @@ footer .footer-abajo a{
 	color: black;
 	font-size: 12px;
 } 
-
-/*-------------------------------CONTACTO-------------------------------*/
-
-
 
 /*---------------------------------HOME---------------------------------*/
 
@@ -217,14 +219,14 @@ a:hover, a:active, a:visited{
 }
 
 .borde-tickets-top{
-	border-bottom: 1px solid orange;
-	border-right: 1px solid orange;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid orange;
 	margin-top: 2px;
 }
 
 .borde-tickets{
-	border-bottom: 1px solid orange;
-	border-right: 1px solid orange;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid orange;
 	margin-top: 15px;
 }
 
@@ -254,6 +256,18 @@ a:hover, a:active, a:visited{
 .button-enviar{
 	margin-top: 15px;
 	margin-bottom: 30px;
+}
+
+.btn-primary {
+    color: #212529;
+    background-color: #E7B508;
+    border-color: #f8f9fa;
+}
+
+.btn-ticket {
+    color: #212529;
+    background-color: #E7B508;
+    border-color: #f8f9fa;
 }
 
 /*--
